@@ -1,0 +1,42 @@
+{
+  "name": "ebook-marketplace",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "node": "npx hardhat node",
+    "localhost": "npx hardhat run scripts/deploy.ts --network ganache"
+  },
+  "dependencies": {
+    "@heroicons/react": "^1.0.5",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "next": "12",
+    "nft.storage": "^3.3.0",
+    "react": "17.0.2",
+    "react-blockies-image": "^0.0.2",
+    "react-dom": "17.0.2",
+    "react-pdf": "^5.5.0"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-ganache": "^2.0.1",
+    "@openzeppelin/contracts": "^4.3.2",
+    "@types/react": "17.0.31",
+    "@types/react-pdf": "^5.0.8",
+    "autoprefixer": "^10.3.7",
+    "daisyui": "^1.16.0",
+    "eslint": "<8.0.0",
+    "eslint-config-next": "11.1.2",
+    "ethers": "^5.5.1",
+    "hardhat": "^2.6.7",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.17",
+    "tailwindcss-nested-groups": "^1.2.4",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4",
+    "web3modal": "^1.9.4"
+  }
+}
